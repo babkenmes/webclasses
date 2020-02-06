@@ -1,0 +1,15 @@
+<div id="toDoList" class="hidden">
+
+</div>
+
+<script>
+    let toDoList = document.getElementById('toDoList');
+
+    const getTodos = fetch("https://my-json-server.typicode.com/babkenmes/todos/todos");
+
+    getTodos.then(function (res) {
+        res.json().then(data => {
+            
+        })
+    })
+</script>
